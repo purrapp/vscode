@@ -1,0 +1,35 @@
+{
+  "name": "purr",
+  "version": "0.0.1",
+  "displayName": "Purr",
+  "description": "Purr Theme for VS Code",
+  "publisher": "daylerees",
+  "repository": "https://github.com/nemanjastanic/purr-vscode",
+  "author": {
+    "name": "Purr",
+    "email": "nya@purr.gg",
+    "url": "https://purr.gg"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "purr",
+    "nemanja",
+    "stanic"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Purr",
+        "uiTheme": "vs-dark",
+        "path": "./themes/purr.json"
+      }
+    ]
+  }
+}
